@@ -5,12 +5,13 @@ for i in range(len(p)):
     for j in range(len(p)):
         if p[i] < p[j]:
             p[i], p[j] = p[j], p[i]
-print(f"正序{p}")
+print(f"正序:{p}")
 # 倒序
 for i in range(len(p)):
     for j in range(len(p)):
         if p[i] > p[j]:
             p[i], p[j] = p[j], p[i]
-print(f"倒序{p}")
+print(f"倒序:{p}")
 # 正序原理：因为p[i] < p[j]，所以p[i],p[j] = p[j],p[i]，这是因为倒序是从最小数开始的
 # 倒序原理：因为p[i] > p[j]，所以p[i],p[j] = p[j],p[i]，这是因为正序是从最大数开始的
+# 以上内容作者wudiwudiDream,邮箱:wudiwudisyx1dream@foxmail.com
