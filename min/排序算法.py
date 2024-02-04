@@ -15,3 +15,4 @@ print(f"倒序:{p}")
 # 正序原理：因为p[i] < p[j]，所以p[i],p[j] = p[j],p[i]，这是因为倒序是从最小数开始的
 # 倒序原理：因为p[i] > p[j]，所以p[i],p[j] = p[j],p[i]，这是因为正序是从最大数开始的
 # 以上内容作者wudiwudiDream,邮箱:wudiwudisyx1dream@foxmail.com
+# 贡献记载：wudiwudiDream源代码，刘baby修改错别字
